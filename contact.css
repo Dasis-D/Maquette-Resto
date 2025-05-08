@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.contac{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #e74c3c ;
+    text-decoration-thickness: 2px ;
+}
+.logo{ 
+    padding-right: 20px;
+ }
+.hero {
+    background-color: #e74c3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.hero button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.ADRESSES {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+.deux{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+.gauche{
+    margin-left: 130px;
+}
+.border h3 p{
+    border-left: #e74c3c;
+    background-color: aqua;
+}
+.contact-us {
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.mailto p {
+    color: #555;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.mailto a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.border {
+    padding-left: 8px;
+    border-left: #e74c3c 3px solid;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: end;
+    margin-top: 20px;
+}
+
+

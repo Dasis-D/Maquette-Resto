@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0 auto;   
+}
+
+.acceuil {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #e44d26;
+    text-decoration-thickness: 2px;
+    color: black;
+    padding-left: 10px;
+}
+
+.menu a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    background-color: white; 
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero .subtitle {
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+
+.hero-image {
+    margin-left: 50px;
+}
+
+.hero-image img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.button {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-right: 0% ;
+}
+
+.addresses {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.address-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.address-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.address-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.address-card h3 {
+    color: #e44d26;
+    margin-top: 0;
+}
+
+.Rejoingnez-nous {
+    background-color: #e44d26;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.SAVOIR-FAIRE {
+    color: black;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.un{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #e44d26;
+}
+
+.social-media {
+    padding: 40px 20px;
+    text-align: center;
+    color: black;
+    /* text-decoration: underline; */
+    /* text-decoration-color: red; */
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px ;
+    gap: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.social-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.contact{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: end;
+    margin: 0 auto;
+}
